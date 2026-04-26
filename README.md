@@ -64,7 +64,6 @@ This project is strictly for:
 - Authorized testing scenarios
 - Educational study
 
-Do not use this on systems or data you do not own or have explicit permission to test.
 
 ---
 
