@@ -33,6 +33,28 @@ This project demonstrates how keystroke capture mechanisms can be implemented at
 - File-based logging
 - Periodic data handling and transmission concepts
 
+## Security Context and Misuse Awareness
+
+Trusted platforms such as GitHub, Discord, and similar widely used services are sometimes abused in malicious activity because they provide legitimate, commonly whitelisted infrastructure that can blend into normal network traffic.
+
+From a defensive security perspective, attackers may leverage these services to:
+- Bypass basic network filtering due to their trusted reputation
+- Blend malicious traffic with legitimate user activity
+- Avoid deploying custom command-and-control infrastructure
+- Maintain reliable communication channels using highly available services
+- Reduce detection by appearing as normal application or developer traffic
+
+Discord webhooks, in particular, can be misused because they provide simple HTTP endpoints that accept structured data. This can make them attractive for unauthorized data forwarding or automated reporting channels if improperly handled in a system.
+
+The security risk is not in the platforms themselves, but in how their legitimate functionality can be abused to move data or communicate in ways that may evade traditional signature-based detection systems.
+
+### Defensive takeaway
+
+Modern security monitoring focuses less on blocking specific services and more on:
+- detecting unusual or automated data transmission patterns
+- analyzing endpoint behavior
+- identifying abnormal use of legitimate APIs and services
+- inspecting outbound data flows rather than relying solely on domain reputation
 ---
 
 ## Ethical Use
