@@ -1,6 +1,6 @@
-<h1 align="center">Keystroke Monitoring (Educational Lab)</h1>
+<h1 align="center">Keystroke Monitoring</h1>
 <p align="center">
-  <b>Defensive Security Demonstration</b><br>
+  <b>Offenssive Security Demonstration</b><br>
   Input Monitoring • Detection Awareness • Controlled Environment
 </p>
 
