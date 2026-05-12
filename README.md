@@ -1,4 +1,4 @@
-<h1 align="center">Keystroke Monitoring</h1>
+<h1 align="center">K3yx</h1>
 <p align="center">
   <b>Offenssive Security Demonstration</b><br>
   Input Monitoring • Detection Awareness • Controlled Environment
